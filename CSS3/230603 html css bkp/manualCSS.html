@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+ 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+<style>
+	body {
+		font-family: sans-serif;
+		padding-left: 3%;
+		padding-right: 3%;
+		background-image: linear-gradient(to right, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579);
+	}
+	h2 {
+		padding-left: 3%;
+	}
+	p, ol, ul {
+		font-size: 15px;
+	}
+	blockquote {
+		font-size: 15px;
+	}
+</style>
+</head>
+<body>
+<!-- -->
+<h1>CSS</h1>
+<h2> Estilos Inline </h2>
+<pre><code>
+&ltbody style="background-color: lightskyblue; font-family: Arial, Helvetica, 
+sans-serif; font-size: 20px;"&gt
+&lth1 style="color: mediumblue; background-color: dodgerblue; font-size: 1.5em;"&gt
+&lth2 style="color: darkred; font-size: 1.2em;"&gt
+&ltp style="text-align: justify;"&gt
+</code></pre>
+
+<h2> Estilos Locais/Internos </h2>
+<pre><code>
+&lttitle&gtEstilos Locais / Internos&lt/title&gt
+&ltstyle&gt
+	body {
+		background-color: lightsteelblue;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20px;
+	}
+	h1 {
+		color: darkblue;
+		background-color: lightblue;
+	}
+	h2 {
+		color: darkred;
+	}
+	p {
+		text-align: justify;
+	}
+	&lt/style&gt
+&lt/head&gt
+&ltbody&gt
+</code></pre>
+
+<h2>Estilos Externos</h2>
+<pre><code>
+&lttitle&gtEstilos Externos&lt/title&gt
+&ltlink rel="stylesheet" href="style.css"&gt
+&lt/head&gt
+&ltbody&gt
+</code></pre>
+
+<h3>Crie um arquivo com o nome: "style.css"</h3>
+<pre><code>
+@charset "UTF-8";
+body {
+	background-color: lightgoldenrodyellow;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+h1 {
+	color: maroon;
+	background-color: goldenrod;
+}
+h2 {
+	color: darkred;
+}
+p {
+	text-align: justify;
+}
+</code></pre>
+
+<h2>Cores</h2>
+<pre><code>
+&lth2 style="background-color: blue; color: white;"&gt
+&lth2 style="background-color: #0000ff; color: #ffffff;"&gt
+&lth2 style="background-color: rgb(0,0, 255); color: rgb(255, 255, 255);"&gt
+&lth2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);"&gt
+&lth2 style="background-color: rgba(27, 78, 33, 0.205); color:#047000;"&gt
+</code></pre>
+<h3>Paleta de cores</h3>
+<p><a href="https://color.adobe.com/create/color-wheel" target="blank"> 
+https://color.adobe.com/create/color-wheel</a></p>
+<p><a href="" target="blank"> 
+</a></p>
+
+<h2>Gradiente em Css</h2>
+<pre><code>
+&lttitle&gtGradiente em Css&lt/title&gt
+&ltstyle&gt
+* { /* Configurações globais das CSS */
+	height: 100%;
+}
+	body {
+		background-image: linear-gradient(to right, #3198E2, #6D59C0, #B93590, 
+#E33F5F, #FDD579);
+	background-attachment: fixed;
+}
+&lt/style&gt
+&lt/head&gt
+&ltbody&gt
+</code></pre>
+
+<h2>Exemplo de estilo</h2>
+<pre><code>
+@charset "UTF-8";
+
+* {
+	font-family: Arial, Helvetica, sans-serif: 
+	height: 100%;
+}	
+body {
+	background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+}
+main {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+	width: 600px;
+	padding: 10px;
+	margin: auto;
+}
+h1 {
+	color: #F39209;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+}
+h2 {
+	color: #125189;
+}
+p {
+	text-align: justify;
+}
+</code></pre>
+
+<h2>Fontes</h2>
+<p><a href="https://fonts.google.com/" target="blank"> 
+https://fonts.google.com/</a></p>
+<pre><code>
+&lttitle&gtFontes com Google Fonts&lt/title&gt
+&ltstyle&gt
+	@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display
+=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&
+display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=KorksSans:ital, wght@
+,100;0,200;0, 300;0,400;0, 500;0,600;0,700;0,800;0,900; 1,100;1,200;1,300;1,400
+;1,500;1,600;1,700;1,800; 1,900&display=swap');
+	body {
+		font-family: 'Work Sans', Arial, Verdana, sans-serif;
+		font-size: 16px;
+		color: black;
+	}
+	h1 {
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 3em;
+		font-weight: normal;
+	}
+	h2 {
+		font-family: 'Kaushan Script', serif; font-size: 2em;
+	}
+&lt/style&gt
+</code></pre>
+
+<h2>Alinhamento</h2>
+<pre><code>
+&lttitle&gtAlinhamentos&lt/title&gt
+&ltstyle&gt
+	body {
+		font: normal 16px Arial, Verdana, serif;
+		text-align: left;
+	}
+	h1 {
+		text-align: center;
+	}
+	h2 {
+		text-align: right;
+	}
+	p {
+		text-align: justify;
+		text-indent: 30px;
+	}
+&lt/style&gt
+</code></pre>
+
+<h2>Fontes Externas</h2>
+<pre><code>
+&lttitle&gtFontes Externas&lt/title&gt
+&ltstyle&gt
+	@font-face {
+		font-family: 'Love';
+		src: url('fonts/love larry.otf') format('opentype'), url('fonts/love larry ttf.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Lover';
+		src: url('fonts/Lovebeat.otf') format('opentype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	h1 {
+		font-family: 'Love', Times, serif;
+		font-size: 	3em;
+		font-weight: normal;
+	}
+	h2 {
+		font-family: 'Lover', Times, serif;
+		font-size: 	3em;
+		font-weight: normal;
+	}
+/*	Baixe a fonte e deixe na pasta "fonts".
+Tipos de format()
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- SVg		
+*/	
+&lt/style&gt
+</code></pre>
+
+
+<pre><code>
+</code></pre>
+
+
+<pre><code>
+</code></pre>
+
+
+<p><a href="" target="blank"> 
+</a></p>
+<br><br><br>
+<p> ________________________________________ </p>
+<br>
+<p>
+Contact:
+<a href="https://marocero2016.blogspot.com/" target="blank">
+https://marocero2016.blogspot.com/</a>
+</p>
+</body>
+</html> 
+

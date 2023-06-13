@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body {
+            border-width: 2px;
+            border-style: dashed;
+            padding: 2px;
+        }
+        h1 {
+            background-color: lightgray;
+            
+            /* BOX SIZE */
+            height: 50px;
+            width: 500px;
+            
+            /*border-width: 2px;
+            border-style: solid;
+            border-color: darkslategray;*/
+            border:  2px solid darkslategray;
+
+            padding: 2px;
+            /* margin: auto; centraliza caixa */
+            margin: auto;
+
+            /*outline-style: dashed;
+            outline-width: 3px;
+            outline-color: red;*/
+            outline:  3px dashed red;
+        }
+        h2 {
+            border-style: groove;
+            border-color: blueviolet;
+
+            /* mantem centralizado com distanciamento */
+            margin: auto 25px;
+            margin-block: 50px;
+        }
+        h3 { /* display: inline; transforma box em inline */
+            display: inline;
+            border: groove orange;
+        }
+        h4 {
+            display: inline-block;
+            border: double darkgoldenrod;
+        }
+        p {
+            border-width: 2px;
+            border-style: dotted;
+            border-color: rgb(9, 255, 0);
+            padding: 8px;
+        }
+        a { /* trasforma inline em block */
+            display: block;
+            border: 2px dotted red;
+            padding: 2px;
+        }
+        p.p2 {
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <h2>Titulo h2</h2>
+    <h3>Titulo h3</h3>
+    <h4>Titulo h4</h4>
+    <p>Paragrafos tambem sao exemplos de box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a>. Vamos ver como tudo funciona. </p>
+    <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt nostrum quisquam accusantium voluptates rem soluta fugit cumque at rerum mollitia ipsa voluptas incidunt, officia omnis, nihil, possimus modi consectetur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolores exercitationem consequatur odit officia architecto, deserunt ad magni id fugiat quasi cumque rerum in labore ut quidem quo iure illo.</p>
+
+
+
+
+
+
+
+</body>
+</html>

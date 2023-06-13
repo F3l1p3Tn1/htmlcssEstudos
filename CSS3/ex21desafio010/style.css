@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* Notes:
+
+*/
+* {
+	font-family: sans-serif;
+	font-size: medium;
+}
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'oswald';
+    src: url('fontes/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}	
+body {
+    background-color: #84E1AD;
+}
+header {
+    background-image: linear-gradient(to top, #1A5F38, #3AD07C);
+    padding: 10px;
+    margin: -10px;
+	text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    font-family: oswald ;
+}
+header > p {
+	color: white;
+    font-size: normal;
+    text-align: center;
+}
+nav {
+	text-align: left;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+    margin-right: 5px;
+	text-align: left;
+    font-size: small;
+}
+main {
+	margin: 10px 100px;
+	background-color: white;
+	padding: 5px 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.57);
+    border-radius: 0px 0px 20px 20px;
+}
+section.s1 {
+    padding-bottom: 20px;
+}
+section.s1 > h2 {
+    font-family: 'droid', Times, serif;
+    font-size: 	30px;
+    font-weight: normal;
+    color: #115c31;
+}
+h3 {
+    font-family: 'droid', Times, serif;
+    font-size: 	20px;
+    font-weight: normal;
+    color: #1A5F38;
+    background-image: linear-gradient(to right,#3ad07b80, white);
+}
+p {
+    font-size: normal;
+    text-align: justify;
+    text-indent: 30px;
+}
+picture {
+    margin:-35px;
+    padding-left: 20px;
+    text-align: center;
+}
+picture.bug {
+    padding-left: 200px;
+}
+section.s2  {
+    text-align: center;
+    background-color: #115c31;
+    padding: 20px 0px;
+    margin: -20px;
+}
+section.s3 {
+    padding-top: 30px;
+}
+section.s3 {
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #C5EBD6;
+}
+section.s3 > article > h2 {
+    font-size: large;
+    padding: 10px;
+    margin: -20px -20px 0px -20px;
+    background-color: #2FA866;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+footer {
+    background-color: #115c31;
+    font-size: medium;
+    padding: 5px;
+    margin: 20px -10px -10px -10px;
+    color: white;
+    font-style: italic;
+}
+footer > p {
+    text-align: center;
+}
+
