@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            background-image: url(imagens-cap19/target001.png);
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+            
+        }
+        #content {
+            background-image: url(imagens-cap19/target001.png);
+            background-size: 100% 100%;
+
+            /* Centralizar div */
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        div {
+            background-image: url(imagens-cap19/target001.png);
+            background-size: 100% 100%;
+            background-color: orange;
+            height: 100px;
+            width: 200px;
+            
+            text-align: center;
+            font-size: xx-large;
+        }
+        #q1 { 
+            background-color: blue;
+            margin: auto;
+        }
+        #q2 { 
+            background-color: green;
+            position: absolute;
+            left: 75%;
+            top: 75%;
+            transform: translate(-50%, -50%);
+        }
+        #q3 { 
+            background-color: red;
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            transform: translate(50%, 50%);
+        }
+        #q4 { background-color: aqua;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(50%, 50%);
+        }
+        #q5 { background-color: maroon;
+            position: absolute;
+        }
+        #q6 { 
+            background-color: white;
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #q7 { background-color: transparent;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(50%, 50%);
+            text-align: left;
+        }
+        #q8 { background-image: linear-gradient(to right, rgba(0, 128, 0, 0.511), rgba(255, 255, 0, 0.248));
+            position: absolute;
+            left: 50%;
+            bottom: 50%;
+            transform: translate(50%, 50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <div id="q1"><h1>q1</h1></div>
+        <div id="q2"><h1>q2</h1></div>
+        <article id="content">
+
+        </article>
+        <div id="q3"><h1>q3</h1></div>
+        <div id="q4"><h1>q4</h1></div>
+        <div id="q5"><h1>q5</h1></div>
+        <div id="q6"><h1>q6</h1></div>
+        <div id="q7"><h1>q7</h1></div>
+        <div id="q8"><h1>q8</h1></div>
+    </section>
+</body>
+</html>
