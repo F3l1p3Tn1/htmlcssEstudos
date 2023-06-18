@@ -8,11 +8,12 @@ body {
 a, h1, p {
     font-size: normal;
     color: #000;
-    background-color: rgba(67, 226, 43, 0.446);
+    background-color: rgba(60, 219, 35, 0.526);
     border-radius: 10px;
-    padding: 2px;
+    padding: 3px;
     text-decoration: none;
     margin: 20px;
+    font-weight: bold;
 }
 a:hover {
     text-decoration: underline;
