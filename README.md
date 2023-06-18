@@ -22,3 +22,4 @@ https://f3l1p3tn1.github.io/htmlcssEstudos/</a>
 - 💞️ I’m looking to collaborate with my repositories.
 
 - 📫 How to reach me <a href="http://marocero2016.blogspot.com/" target="blank">http://marocero2016.blogspot.com/</a>
+<img src="https://github.com/F3l1p3Tn1/htmlcssEstudos/blob/main/HTML5/img/studytime.gif?raw=true" alt="study time">
