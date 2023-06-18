@@ -1,7 +1,17 @@
 # htmlcssEstudos
-Estudos de html e css.
 
-<a href="https://f3l1p3tn1.github.io/htmlcssEstudos/" target="blank">https://f3l1p3tn1.github.io/htmlcssEstudos/</a>
+
+<h3>Cordel Project:</h3>
+<a href="https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/desafio012/" target="blank">
+https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/desafio012/</a>
+
+<h3>Android Project:</h3>
+<a href="https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/ex21desafio010/android.html" target="blank">
+https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/ex21desafio010/android.html</a>
+
+<h3>.html files:</h3>
+<a href="https://f3l1p3tn1.github.io/htmlcssEstudos/" target="blank">
+https://f3l1p3tn1.github.io/htmlcssEstudos/</a>
 
 - 👋 Hi, I’m @F3l1p3Tn1
 
