@@ -6,8 +6,8 @@
 https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/desafio012/</a>
 
 <h3>Android Project:</h3>
-<a href="https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/ex21desafio010/android.html" target="blank">
-https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/ex21desafio010/android.html</a>
+<a href="https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/desafio010/android.html" target="blank">
+https://f3l1p3tn1.github.io/htmlcssEstudos/CSS3/desafio010/android.html</a>
 
 <h3>.html files:</h3>
 <a href="https://f3l1p3tn1.github.io/htmlcssEstudos/" target="blank">
