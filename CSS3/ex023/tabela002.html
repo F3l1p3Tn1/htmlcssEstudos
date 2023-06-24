@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 10px;
+            
+            max-width: 500px;
+            margin: auto
+        }
+        h1, p {
+            font-family: monospace;
+            box-shadow: 1px 1px 1px 0px rgba(211, 211, 211, 0.504);
+            background-image: linear-gradient(to top, lightgray, white);
+            padding: 10px;
+        }
+        a {
+            color: black;
+            text-align: center;
+        }
+        table {
+            width: 350px;
+            border-collapse: collapse;
+            position: relative;
+            margin: auto;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.345);
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        thead, tfoot {
+            background-color: #383838;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        /* Efeito Zebrado na tabela:
+            tbody > tr:nth-child(2n) */
+        tbody > tr:nth-child(odd) { /* nth-child(2n-1) */
+            background-color: rgba(211, 211, 211, 0.182);
+        }
+        tbody > tr:nth-child(even) { /* nth-child(2n) */
+            background-color: lightgray;
+        }
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-03/ex023/tabela002.html">
+        <h1>Uso de tabelas grandes</h1>
+    </a>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -------------------------------------------
+    https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o
+    -->
+    <table>
+        <caption>
+            Lista de unidades federativas do Brasil por população
+        </caption>
+        <thead>
+            <tr>
+                <th> </th>
+                <th scope="col"  style="width: 200px;">Estado</th>
+                <th scope="col" style="width: 100px";>População</th>
+            </tr>
+        </thead>
+        <!--
+            Deslocamos o "tfoot" aqui cima para demonstrar que a posição na pagina segue a semântica.
+        -->
+        <tfoot>
+            <tr>
+                <th> </th>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>207 883 699</strong></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>São Paulo</td>
+                <td class="num">46 024 937</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 732 660</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 615 526</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Bahia</td>
+                <td class="num">14 659 023</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Paraná
+                <td class="num">11 835 379
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Rio Grande do Sul
+                <td class="num">11 088 065
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Pernambuco
+                <td class="num">9 051 113
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Ceará
+                <td class="num">8 936 431
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Pará
+                <td class="num">8 442 962
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina
+                <td class="num">7 762 154
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Goiás
+                <td class="num">6 950 976
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Maranhão
+                <td class="num">6 800 605
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Espírito Santo
+                <td class="num">4 108 508
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Paraiba
+                <td class="num">4 030 961
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Amazonas
+                <td class="num">3 952 262
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Mato Grosso
+                <td class="num">3 784 239
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Rio Grande do Norte
+                <td class="num">3 303 953
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Piauí
+                <td class="num">3 270 174
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Alagoas
+                <td class="num">3 125 254
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Distrito Federal
+                <td class="num">2 923 369
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Mato Grosso do Sul
+                <td class="num">2 833 742
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Sergipe
+                <td  class="num">2 211 868
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Rondônia
+                <td  class="num">1 616 379
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Tocantins
+                <td  class="num">1 584 306
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Acre
+                <td  class="num">829 780
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Amapá
+                <td  class="num">774 268
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Roraima
+                <td  class="num">634 805
+            </tr>
+
+        </tbody>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ratione consectetur accusantium at nostrum suscipit, sapiente aspernatur saepe quia deserunt maiores! Tempora ad vero blanditiis numquam provident pariatur et? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore dicta quibusdam iusto debitis cupiditate, voluptatem id similique quasi ullam illo, ex sint non ipsam. Sequi error ex deserunt quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae impedit dolore recusandae commodi non beatae ratione, porro architecto mollitia enim harum, omnis temporibus perspiciatis doloribus debitis ullam hic fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut esse consectetur eius, consequatur, voluptas commodi cum excepturi perspiciatis repudiandae nostrum quas, dolores sunt aut deleniti. Facere maiores itaque ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ratione consectetur accusantium at nostrum suscipit, sapiente aspernatur saepe quia deserunt maiores! Tempora ad vero blanditiis numquam provident pariatur et? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore dicta quibusdam iusto debitis cupiditate, voluptatem id similique quasi ullam illo, ex sint non ipsam. Sequi error ex deserunt quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae impedit dolore recusandae commodi non beatae ratione, porro architecto mollitia enim harum, omnis temporibus perspiciatis doloribus debitis ullam hic fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut esse consectetur eius, consequatur, voluptas commodi cum excepturi perspiciatis repudiandae nostrum quas, dolores sunt aut deleniti. Facere maiores itaque ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ratione consectetur accusantium at nostrum suscipit, sapiente aspernatur saepe quia deserunt maiores! Tempora ad vero blanditiis numquam provident pariatur et? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore dicta quibusdam iusto debitis cupiditate, voluptatem id similique quasi ullam illo, ex sint non ipsam. Sequi error ex deserunt quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae impedit dolore recusandae commodi non beatae ratione, porro architecto mollitia enim harum, omnis temporibus perspiciatis doloribus debitis ullam hic fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut esse consectetur eius, consequatur, voluptas commodi cum excepturi perspiciatis repudiandae nostrum quas, dolores sunt aut deleniti. Facere maiores itaque ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ratione consectetur accusantium at nostrum suscipit, sapiente aspernatur saepe quia deserunt maiores! Tempora ad vero blanditiis numquam provident pariatur et? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore dicta quibusdam iusto debitis cupiditate, voluptatem id similique quasi ullam illo, ex sint non ipsam. Sequi error ex deserunt quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae impedit dolore recusandae commodi non beatae ratione, porro architecto mollitia enim harum, omnis temporibus perspiciatis doloribus debitis ullam hic fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut esse consectetur eius, consequatur, voluptas commodi cum excepturi perspiciatis repudiandae nostrum quas, dolores sunt aut deleniti. Facere maiores itaque ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ratione consectetur accusantium at nostrum suscipit, sapiente aspernatur saepe quia deserunt maiores! Tempora ad vero blanditiis numquam provident pariatur et? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore dicta quibusdam iusto debitis cupiditate, voluptatem id similique quasi ullam illo, ex sint non ipsam. Sequi error ex deserunt quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae impedit dolore recusandae commodi non beatae ratione, porro architecto mollitia enim harum, omnis temporibus perspiciatis doloribus debitis ullam hic fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut esse consectetur eius, consequatur, voluptas commodi cum excepturi perspiciatis repudiandae nostrum quas, dolores sunt aut deleniti. Facere maiores itaque ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ratione consectetur accusantium at nostrum suscipit, sapiente aspernatur saepe quia deserunt maiores! Tempora ad vero blanditiis numquam provident pariatur et? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore dicta quibusdam iusto debitis cupiditate, voluptatem id similique quasi ullam illo, ex sint non ipsam. Sequi error ex deserunt quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae impedit dolore recusandae commodi non beatae ratione, porro architecto mollitia enim harum, omnis temporibus perspiciatis doloribus debitis ullam hic fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere ut esse consectetur eius, consequatur, voluptas commodi cum excepturi perspiciatis repudiandae nostrum quas, dolores sunt aut deleniti. Facere maiores itaque ipsum!</p>
+</body>
+</html>
