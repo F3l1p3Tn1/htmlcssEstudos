@@ -1,20 +1,25 @@
 @charset "UTF-8";
 body {
     background-color: black;
+    background-image: url(https://c1.wallpaperflare.com/preview/990/635/740/technology-ui-user-interface-tech.jpg);
     font-family: sans-serif;
     line-height: 1.5em;
-    margin-top: 30px;
+    margin-top: 10px;
+    text-align: center;
 }
 a, h1, p {
     font-size: normal;
     color: #000;
-    background-color: rgba(60, 219, 35, 0.526);
+    background-color: rgba(0, 128, 0, 0.885);
     border-radius: 10px;
     padding: 3px;
     text-decoration: none;
     margin: 20px;
     font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
 }
 a:hover {
     text-decoration: underline;
+    text-shadow: 0px 1px 1px rgba(144, 238, 144, 0.502);
 }
