@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(255, 255, 0, 0.157);
+            background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/px841363-image-kwvxfjuq.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d3a66a741508f73ab697ad21138c82a8);
+            background-size: cover;
+            margin: auto;
+            width: 95vw;
+            max-width: 500px;
+        }
+        h1, p, iframe {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastre-se aqui</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            Nome:
+            <input type="text" name="nome" id="nome">
+            <input type="submit" value="Cadastrar">
+        </p>
+    </form>
+    <hr>
+    
+
+    <h1>JavaScript</h1>
+    <a href="#" onclick="clicou()">Clique aqui!</a>
+    <div id="saida"></div>
+    <script>
+        function clicou() {
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p>Voce clicou!</p>'
+        }
+    </script>
+    
+</body>
+</html>
