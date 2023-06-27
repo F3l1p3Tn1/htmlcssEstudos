@@ -19,6 +19,7 @@ a, h1, p {
     margin: 20px;
     font-weight: bold;
     text-align: center;
+    white-space: nowrap;
 }
 a:hover {
     background-color: rgb(32, 182, 32);
