@@ -23,7 +23,10 @@ a, h1, p {
 }
 a:hover {
     background-color: rgb(32, 182, 32);
+    border-radius: 20px;
     text-decoration: underline;
     text-shadow: 0px 1px 1px rgba(144, 238, 144, 0.502);
     box-shadow: 0px 0px 10px 0px white;
+    border-color: lightgreen;
+    transition: text-decoration .2s, background-color .3s, box-shadow .4s, text-shadow .5s, border-color 1s, border-radius 2s;
 }
