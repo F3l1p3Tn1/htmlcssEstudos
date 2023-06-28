@@ -26,4 +26,5 @@ a {
 a:hover {
     background-color: red;
     text-decoration: underline;
+    transition: background-color .5s, text-decoration 1s;
 }

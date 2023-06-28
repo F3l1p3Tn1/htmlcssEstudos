@@ -43,7 +43,12 @@ iframe#tela {
     height: 0px;
 }
 section#social {
-    text-align: right;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.376);
 }
 section#social img {
     width: 50px;
@@ -52,10 +57,22 @@ section#social img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.69);
     box-sizing: border-box;
 }
-section#social img:hover {
+section#social img:hover, section#social:hover {
     border: 2px solid rgba(255, 255, 255, 0.674);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.76);
     transition: transform .3s, border .5s;
+}
+section#tel:hover {
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.434);
+    transition: border .5s, box-shadow 1s;
+    border-radius: 50px;
+}
+iframe#tela:hover {
+    box-shadow: 0px 0px 40px white;
+}
+main:hover {
+    box-shadow: inset 2px 2px 100px rgba(255, 255, 255, 0.104);
 }
 
