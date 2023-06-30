@@ -15,7 +15,6 @@ a, h1, p {
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
-    text-decoration: none;
     margin: 20px;
     font-weight: bold;
     text-align: center;
@@ -29,4 +28,5 @@ a:hover {
     box-shadow: 0px 0px 10px 0px white;
     border-color: lightgreen;
     transition: text-decoration .2s, background-color .3s, box-shadow .4s, text-shadow .5s, border-color 1s, border-radius 2s;
+    text-decoration: none;
 }
