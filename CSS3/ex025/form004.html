@@ -9,7 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         body {
-            background-image: url(https://c0.wallpaperflare.com/preview/450/145/217/message-icon.jpg);
+            background-image: url(https://c1.wallpaperflare.com/preview/922/80/1003/technology-social-media-technology-thumbnail.jpg);
             background-color: rgb(170, 169, 169);
             text-align: center;
             height: 100vh;
@@ -17,7 +17,7 @@
             background-position: center;
         }
         input, h1 {
-            background-color: blanchedalmond;
+            background-color: rgba(255, 255, 255, 0.552);
             border: 1px solid black;
             display: inline-block;
             padding: 5px;
@@ -29,7 +29,10 @@
             font-size: 1.5em;
         }
         label, legend {
+            background-color: rgba(0, 0, 0, 0.504);
             color: white;
+            border-radius: 10px;
+            padding: 3px;
         }
         input:hover, a:hover {
             box-shadow: inset 0px 0px 3px black;
@@ -41,7 +44,7 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro1.php" method="get">
+    <form action="cadastro.php" method="post">
         <fieldset>
             <legend style="text-decoration: underline">Dados Pessoais</legend>
             <p>
@@ -54,7 +57,7 @@
             </p>
             <p>
                 <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4,5}$" placeholder="(00)0000-0000" required>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4,5}$" placeholder="(00)0000-0000" required value="(00)0000-0000">
                 <!-- Estudar RegEx:
                 pattern="^[0-9]{4}-[0-9]{4}$"
                 -->
@@ -65,6 +68,7 @@
             <input id="button" type="reset" value="Limpar">
         </p>
     </form>
-    <a style="position: absolute; right: 1%; bottom: 0%;" href="https://youtu.be/SRMEHklQC4M">Video 23- Formulários com telefone e e-mail</a>
+    <a style="position: absolute; right: 1%; bottom: 0%;"   href="https://youtu.be/SRMEHklQC4M" target="_blank">
+        23- Formulários com telefone e e-mail</a>
 </body>
 </html>

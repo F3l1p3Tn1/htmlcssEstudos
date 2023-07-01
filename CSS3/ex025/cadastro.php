@@ -1,2 +1,18 @@
+
+
+
+
 Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles.
+PHP em construção.
+
+/*
+<?php
+
+$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING);
+$sobrenome = filter_input(INPUT_POST, 'sobrenome', FILTER_SANITIZE_STRING);
+
+echo "Nome: $nome <br>";
+echo "Email: $email <br>";
+echo "Sobrenome: $sobrenome <br>";
+*/
