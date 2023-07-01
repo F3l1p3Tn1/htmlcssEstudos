@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form007</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body style="background-image: url(https://p1.pxfuel.com/preview/77/657/267/future-geometry-chart-form.jpg);">
+    <h1>Form example</h1>
+    <form action="cadastro.php" method="post">
+    <fieldset>
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <optgroup>
+                    <option value="">--- Escolha ---</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="Cont">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            <label for="imsg">Mensagens</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+    </fieldset>
+        <p>
+            <input id="button" type="submit" value="Enviar">
+            <input id="button" type="reset" value="Limpar">
+        </p>
+        <a style="position: absolute; right: 1%; bottom: 0%;"
+            href="https://youtu.be/PFGmSEj2wIo">
+            26- Select, datalist e textarea em HTML</a>
+    </form>
+</body>
+</html>

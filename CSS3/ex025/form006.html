@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form006</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body style="background-image: url(https://c1.wallpaperflare.com/preview/390/97/229/pattern-abstract-lines-macro.jpg);">
+    <h1>Form example</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend></legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" value="#00ff00">
+            </p>
+            <p>
+                <label for="inivel">Nível de Satisfação</label>
+                <input type="range" name="nivel" id="inivel" min="1" max="5" value="5">
+            </p>
+            <p>
+                <label for="ifoto">Foto:</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+            <p>
+                <input id="button" type="submit" value="Enviar">
+                <input id="button" type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+    <a style="position: absolute; right: 1%; bottom: 0%;" 
+        href="https://youtu.be/acOURIAlB1Q">
+        25- Elementos color, range e file em HTML</a>
+</body>
+</html>
