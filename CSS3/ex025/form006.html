@@ -8,7 +8,7 @@
 </head>
 <body style="background-image: url(https://c1.wallpaperflare.com/preview/390/97/229/pattern-abstract-lines-macro.jpg);">
     <h1>Form example</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <fieldset>
             <legend></legend>
             <p>
@@ -17,7 +17,9 @@
             </p>
             <p>
                 <label for="inivel">Nível de Satisfação</label>
-                <input type="range" name="nivel" id="inivel" min="1" max="5" value="5">
+                <input type="range" name="nivel" id="inivel" min="1" max="10" value="10" oninput="ival.innerHTML = Number(inivel.value)">
+
+                <output name="val" id="ival">10</output>
             </p>
             <p>
                 <label for="ifoto">Foto:</label>
@@ -30,7 +32,7 @@
         </fieldset>
     </form>
     <a style="position: absolute; right: 1%; bottom: 0%;" 
-        href="https://youtu.be/acOURIAlB1Q">
+        href="https://youtu.be/acOURIAlB1Q" target="_blank">
         25- Elementos color, range e file em HTML</a>
 </body>
 </html>

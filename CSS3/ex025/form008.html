@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form008</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body style="background-image: url(https://c1.wallpaperflare.com/preview/985/592/884/square-cubism-form-shape.jpg);">
+    <h1>Form Example</h1>
+    <form action="cadastro.html" method="post" autocomplete="on">
+        <fieldset>
+        <p>
+            <label for="in1">Número 1:</label>
+            <input type="number" name="n1" id="in1" min="0" max="100" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Número 2:</label>
+            <input type="number" name="n2" id="in2" min="0" max="100" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label for="inivel">Nível de Satisfação</label>
+                <input type="range" name="nivel" id="inivel" min="1" max="10" value="10" oninput="ival.innerHTML = Number(inivel.value)">
+
+                <output name="val" id="ival">10</output>
+            </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label for="iano">Ano de nascimento:</label>
+                <input type="number" name="ano" id="iano" min="1900" max="2050"
+                oninput="calcIdade()">
+            </p>
+            <p>
+                <label for="iidade">Idade:</label>
+                <output name="idade" id="iidade">0</output>
+            </p>
+        </fieldset>
+
+        <p>
+            <input id="button" type="submit" value="Enviar">
+            <input id="button" type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+    
+    <a style="position: absolute; right: 1%; bottom: 0%;"
+        href="https://youtu.be/8b6K4UQDm7w">
+        27- Elemento output em formulários HTML</a>
+</body>
+</html>
