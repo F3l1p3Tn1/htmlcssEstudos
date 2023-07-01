@@ -8,7 +8,7 @@ body {
     margin-top: 10px;
     text-align: center;
 }
-a, h1, p {
+a, p {
     font-size: normal;
     color: #000;
     background-color: rgba(0, 128, 0, 0.885);
