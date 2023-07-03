@@ -1,7 +1,12 @@
 @charset "UTF-8";
 body {
     background-color: black;
-    background-image: url(https://c1.wallpaperflare.com/preview/990/635/740/technology-ui-user-interface-tech.jpg);
+    background-image: url(https://c1.wallpaperflare.com/preview/921/100/4/wood-the-leaves-twig-leaf.jpg);
+    /*
+    https://c1.wallpaperflare.com/preview/921/100/4/wood-the-leaves-twig-leaf.jpg
+
+    https://c1.wallpaperflare.com/preview/990/635/740/technology-ui-user-interface-tech.jpg    
+    */
     background-size: contain;
     font-family: sans-serif;
     line-height: 2em;
