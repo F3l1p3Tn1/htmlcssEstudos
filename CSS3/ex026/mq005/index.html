@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(mq005)</title>
     <link rel="stylesheet" href="mq005.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Media Queries Test Page</h1>
-        <menu>
+        <i id="burger" class="material-icons md-48" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="https://pt.wikipedia.org/wiki/CSS3" target="_blank">
                     CSS3</a></li>
@@ -46,7 +48,28 @@
         <a href="https://youtu.be/Zp3fnf99kTg" target="_blank">
             36- Menu responsivo com HTML5 e CSS3</a><br>
         <a href="https://youtu.be/67W4NdxW1kw" target="_blank">
-            37- Configurando o layout do projeto</a>
+            37- Configurando o layout do projeto</a> <br><br>
+        
+        <a href="https://youtu.be/Dd6Z3gkud18" target="_blank">
+            38- Criando um menu hambúrguer</a><br>
+        <a href="https://fonts.google.com/icons" target="_blank">
+        Material Symbols</a><br>
+        <a href="https://developers.google.com/fonts/docs/material_icons#setup_method_1_using_via_google_fonts">
+        Setup Method 1. Using via Google Fonts</a>
+        <!--Setup:
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            Using:
+            <span class="material-icons">face</span>
+        -->
     </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

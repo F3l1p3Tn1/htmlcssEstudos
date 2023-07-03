@@ -14,8 +14,19 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+i#burger {
+    background-color: rgb(87, 87, 87);
     display: block;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+i#burger:hover {
+    box-shadow:  inset 0px 0px 20px black;
+}
+menu {
+    display: none;
 }
 menu > ul {
     list-style-type: none;
@@ -30,7 +41,7 @@ menu a {
     border-top: 2px solid gray;
 }
 menu a:hover {
-    background-color: gray;
+    box-shadow:  inset 0px 0px 20px black;
 }
 main {
     width: 90vw;
