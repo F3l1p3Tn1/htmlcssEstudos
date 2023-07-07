@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(mq005)</title>
+
+    <!-- CSS para mobile -->
     <link rel="stylesheet" href="mq005.css">
+
+    <!-- Ícone de hamburguer do Google -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS para outros tamanhos de tela 
+        Obs: Esse link deve estar debaixo do principal. -->
+    <link rel="stylesheet" href="mqOthers.css">
+
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Media Queries</h1>
-        <i id="burger" class="material-icons md-48" onclick="clickMenu()">menu</i>
+        <i id="burguer" class="material-icons md-48" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
                 <li><a href="https://pt.wikipedia.org/wiki/CSS3" target="_blank">
@@ -47,21 +56,25 @@
             
         </article>
     </main>
-    <footer style="text-align: right; line-height: 1.5em; padding: 10px;"><hr>
-        <a href="../../../index2.html" target="_blank">
-            Menu: INDEX2
-        </a><br>
-        <a href="https://youtu.be/Zp3fnf99kTg" target="_blank">
-            36- Menu responsivo com HTML5 e CSS3</a><br>
-        <a href="https://youtu.be/67W4NdxW1kw" target="_blank">
-            37- Configurando o layout do projeto</a> <br><br>
+    <footer><hr>
+        <p>
+            <a href="../../../index2.html" target="_blank">
+                Menu: INDEX2
+            </a><br>
+            <a href="https://youtu.be/Zp3fnf99kTg" target="_blank">
+                36- Menu responsivo com HTML5 e CSS3</a><br>
+            <a href="https://youtu.be/67W4NdxW1kw" target="_blank">
+                37- Configurando o layout do projeto</a> <br>
+        </p>
         
-        <a href="https://youtu.be/Dd6Z3gkud18" target="_blank">
-            38- Criando um menu hambúrguer</a><br>
-        <a href="https://fonts.google.com/icons" target="_blank">
-        Material Symbols</a><br>
-        <a href="https://developers.google.com/fonts/docs/material_icons#setup_method_1_using_via_google_fonts">
-        Setup Method 1. Using via Google Fonts</a>
+        <p>
+            <a href="https://youtu.be/Dd6Z3gkud18" target="_blank">
+                38- Criando um menu hambúrguer</a><br>
+            <a href="https://fonts.google.com/icons" target="_blank">
+            Material Symbols</a><br>
+            <a href="https://developers.google.com/fonts/docs/material_icons#setup_method_1_using_via_google_fonts">
+            Setup Method 1. Using via Google Fonts</a>
+        </p>
         <!--Setup:
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
             Using:
@@ -69,6 +82,17 @@
         -->
     </footer>
     <script>
+        // Nao esqueça os () em:
+        // <body onresize="mudouTamanho()"> XD
+        // E aqui tbm kk sempre esqueço 
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
