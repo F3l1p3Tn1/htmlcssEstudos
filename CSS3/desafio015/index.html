@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Icon_Photo.png" alt="icon"  onclick="clickImg()"></div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a)! Faça login para acessa sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post"></form>
+            </div>
+        </section>
+        <a href="https://github.com/F3l1p3Tn1/htmlcssEstudos" target="_blank">
+            <img id="inf" src="free-get-35-439084.png" alt="info"></a>
+    </main>
+    <script>
+        function clickImg() {
+            if (imagem.style.backgroundPosition != 'left bottom') {
+                imagem.style.background = 'url(pexels-scott-webb-139198.jpg)'
+                imagem.style.backgroundSize = 'cover'
+                imagem.style.backgroundPosition = 'left bottom'
+                imagem.style.display = 'block'
+            } else {
+            imagem.style.background = 'url(metal.jpg)'
+            imagem.style.backgroundSize = 'cover'
+            imagem.style.backgroundPosition = 'right bottom'
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!--
+      https://professorguanabara.github.io/projeto-login/
+    https://www.pexels.com/search/pattern%20building/
+    https://www.pexels.com/photo/silver-diamond-wallpaper-139198/
+
+    Obs:Nao esquecer de selecionar master-branch no github ao publicar a pagina.
+
+    <a href="https://youtu.be/4NB0_DPpjak">
+        40- Tela de login responsiva só com HTML e CSS</a>
+
+    <a href="https://youtu.be/AKj3L3ouVAk">
+        41- Versão mobile first da tela de login</a>
+
+-->
