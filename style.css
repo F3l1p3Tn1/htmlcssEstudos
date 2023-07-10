@@ -35,3 +35,21 @@ a:hover {
     transition: text-decoration .2s, background-color .3s, box-shadow .4s, text-shadow .5s, border-color 1s, border-radius 2s;
     text-decoration: none;
 }
+.react {
+    height: 10vmin;
+    position: fixed;
+    right:10%; bottom: 0%;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .react {
+      animation: App-logo-spin infinite 1s alternate;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(999deg);
+    }
+  }

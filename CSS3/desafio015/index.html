@@ -6,6 +6,11 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mq015.css">
+
+    <!--
+        https://developers.google.com/fonts/docs/material_symbols
+    -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -15,7 +20,22 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a)! Faça login para acessa sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <label for="ilogin">Login</label><br>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required maxlength="30">
+                        
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <label for="isenha">Senha</label><br>
+                        <input type="password" name="senha" id="isenha" placeholder="senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">Esqueci a senha</a>
+                </form>
             </div>
         </section>
         <a href="https://github.com/F3l1p3Tn1/htmlcssEstudos" target="_blank">
