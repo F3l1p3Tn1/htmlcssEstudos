@@ -16,10 +16,13 @@
 body, html {
     background-color: #5f2c82;
     height: 100vh; width: 100vw;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
 }
 main {
     position: relative;
     height: 100vh; width: 100vw;
+    padding: -1px;
+    margin: -1px;
 }
 section#login {
     position: absolute;
@@ -34,6 +37,11 @@ section#login {
     width: 250px; height: 500px;
     border-radius: 20px; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    padding: -1px;
+
+    /* Suaviza a transição de tamanhos */
+    transition: width .3s, height .3s;
+    transition-timing-function: easy;
 }
 div#imagem {
     display: block; /* Nao altera visualmente aqui */
@@ -41,12 +49,13 @@ div#imagem {
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+    margin: -1px;
 }
 div#imagem > img {
-    width: 10px;
+    width: 15px;
     margin: 5px;
     position: absolute;
-    right: 1%; top: 0%;
+    lefth: 1%; top: 0%;
     cursor: pointer;
 }
 section#login > div#formulario {
@@ -55,7 +64,8 @@ section#login > div#formulario {
 }
 img#inf {
     position: absolute;
-    right: 1%; bottom: 0%;
+    right: 1%; top: 0%;
     font-size: .8em;
     width: 30px;
+    margin: 5px;
 }
