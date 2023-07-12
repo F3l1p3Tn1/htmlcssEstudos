@@ -1,0 +1,298 @@
+Notas:
+
+
+
+
+#------ Online tools:
+
+  Colors from img:
+    https://html-color-codes.info/colors-from-image/ 
+
+
+#----- Gimp:
+
+CursoEmVideo CSS border file template:
+  gimp- newfile- 80x80- resolution- 70x70- trasparency
+
+
+#----- Templates:
+
+  https://www.brasilcode.com.br/10-sites-para-baixar-templates-gratuitos-em-html-e-css/
+    1- https://freebiesbug.com/
+    2- https://colorlib.com/wp/templates/
+    3- https://startbootstrap.com/
+    4- https://cruip.com/free-templates/
+    5- https://styleshout.com/free-templates/
+    6- https://html5up.net/
+    7- https://freehtml5.co/
+    8- https://www.tooplate.com/
+    9- https://themewagon.com/themes/
+    10- https://www.zerotheme.com/
+
+
+#----- Imagens Gratuitas:
+
+  https://www.pexels.com/
+
+  https://pixabay.com/pt/
+
+  https://unsplash.com/
+
+  https://www.canva.com/features/free-stock-photos/
+  
+
+#----- Ícones:
+
+  https://fonts.google.com/icons
+
+
+#----- Design:
+
+  https://www.figma.com/
+    Editor gráfico de vetor e prototipagem de projetos de design
+
+  https://www.canva.com/pt_pt/
+    Canva é uma plataforma online de design e comunicação visual 
+    
+
+#----- Hosting
+
+  https://www.hostinger.com/
+    $2.99/m   /   ¥ 399 /mo    / 15 reais 
+
+  https://cloud.google.com/solutions/web-hosting?hl=pt-br FREE ;)
+
+  https://www.hostnet.com.br/hospedagem-de-sites/ 60 reais dominio free
+
+  https://www.jivochat.com.br/blog/ferramentas/comprar-dominio.html#articleContentBlock2
+
+
+#----- Domain:
+  https://domains.google.com/registrar/search?searchTerm 
+
+
+#----- Learn:
+
+  https://www.cursoemvideo.com/
+
+  https://www.w3schools.com/
+
+  https://marksheet.io/
+
+  https://learn.shayhowe.com/html-css/building-your-first-web-page/
+
+  https://www.codecademy.com/learn/introduction-to-javascript
+
+  https://javascript.info/
+
+#----- VSCode
+
+  Emmet Wrap shortcut:
+    ctrl+s    (keyboard shortcuts)
+    search:    wrap with
+    select + Emmet Wrap with Abbreviation
+    Defina: ctrl+alt+p
+    (select the text or word and ctrl+alt+p)
+
+  VS Shortcuts: 
+    ctrl+shift+^  (Terminal)
+    Alt+Shift+B   (open in browser - extension)
+    ctrl+\ 	(open tabs side by side)
+    Alt + Click (seleciona múltiplos lugares para editar)
+
+
+#----- Ubuntu 
+
+  Instalando Git e GitHub:
+    Git:
+      $ sudo apt install git
+      https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04-pt
+
+    GitHubDesktop:
+      https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1
+      $ sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
+      $ sudo apt-get install gdebi-core
+        Gdebi lets you install local deb packages resolving and installing its dependencies. apt does the same, but only for remote (http, ftp) located packages. It can also resolve build-depends of local debian/control files.
+      $ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+
+    How to Update vscode in ubuntu:
+      https://code.visualstudio.com/
+      Download code_... package and run terminal commands:
+      $ sudo gdebi code("TAB to complete package name")
+        or $ sudo dpkg -i code("TAB to complete package name")
+      $ code
+      https://mypurtech.com/en/update-visual-studio-code-ubuntu/
+
+    !!! Obs: 
+      VSCode, GitHubDesktop e GitHub:
+        Ao apagar o repositório e manter a pasta no PC, nao esquecer de apagar os arquivos ocultos do git nas pastas!
+
+  Instalar VisualCode no Linux Ubuntu
+      Baixe o pacote: https://code.visualstudio.com/docs/?dv=linux64_deb
+      Na mesma pasta do download abra o terminal e digite:
+        $ sudo apt install ./<nome do arquivo que baixou>.deb
+      (Dica digite apenas o começo do nome e aperte a tecla TAB)
+      Para instalar manualmente acesse:
+      https://code.visualstudio.com/docs/setup/linux
+
+  Shortcuts:
+      Super+PgUp or PgDown (chng workspace)
+      Super+Shift+PgUp or PgDown (move windows in workspace)
+      Super+arrows (resize windows)
+
+      Sound:
+      $ alsamixer (Enable Auto-mute) 
+      $ pavucontrol (Enable microfone)
+        Input devices, Built-in Audio Analog Stereo, Internal Microfone.
+        Click sound icon, turn off and on.
+
+
+#----- YouTube shortcuts shift+?
+    k   Iniciar/pausar
+    j   Voltar 10 segundos
+    l   Avançar 10 segundos
+    P   Vídeo anterior
+    N   Próximo vídeo
+    ,   Quadro anterior (enquanto pausado)
+    .   Próximo quadro (enquanto pausado)
+    0~9 (ex: 7 avanços para 70% da duração)
+    < (SHIFT+,)   Diminuir a taxa de reprodução
+    > (SHIFT+.)   Aumentar a taxa de reprodução
+    CTRL + ←  Ir para o capítulo anterior
+    CTRL + →  Ir para o próximo capítulo
+#-----
+
+=============================================== 
+https://f3l1p3tn1.github.io/htmlcssEstudos/index2.html
+Modulo 4 do curso de html e css:
+https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT
+<a href="https://youtu.be/c2PePX8joKc">
+  45- Finalizando projeto tela de login</a>
+<a href="https://youtu.be/JDS9ZLpoS6E">
+  44- Aplicando estilo ao formulário de login</a>
+<a href="https://youtu.be/htekZ2wA7Zo">
+  43- Criando o formulário de login</a>
+<a href="https://youtu.be/Ec7Vu96wdpA">
+  42- Outras Media Queries para o projeto</a>
+<a href="https://youtu.be/AKj3L3ouVAk">
+  41- Versão mobile first da tela de login</a>
+<a href="https://youtu.be/4NB0_DPpjak">
+  40- Tela de login responsiva só com HTML e CSS</a>
+<a href="https://youtu.be/T1rfhkmcH00">
+  39- Media Queries para outros dispositivos</a>
+<a href="https://youtu.be/Dd6Z3gkud18" target="_blank">
+  38- Criando um menu hambúrguer</a><br>
+<a href="https://youtu.be/67W4NdxW1kw">
+  37- Configurando o layout do projeto</a>
+<a href="https://youtu.be/Zp3fnf99kTg">
+  36- Menu responsivo com HTML5 e CSS3</a>
+<a href="https://youtu.be/S8YXMqDsbhA">
+  35- Device breakpoints</a> 
+<a href="https://youtu.be/wU80w4xbNxQ">
+  34- Iniciando um site mobile first</a>
+<a href="https://youtu.be/q6SZKTHUQiw">
+  33- Mobile First</a> 
+<a href="https://youtu.be/DkA_OQgjjKg" target="_blank">
+  32- Reunindo tudo em um único CSS</a>
+<a href="https://youtu.be/IRCDwdZLlX4">
+  31- Seguindo a orientação do dispositivo</a>
+<a href="https://youtu.be/VGD5Uy1C8Cw" target="_blank">
+  30- Múltiplas Media Features com CSS</a>
+<a href="https://youtu.be/DMYlN21ajtU" target="_blank">
+  29- Criando um site com versão para impressora</a>
+<a href="https://youtu.be/9rY8V2rvP2o" target="_blank">
+  28- O que são Media Queries em CSS</a>
+<a href="https://youtu.be/8b6K4UQDm7w" target="_blank">
+  27- Elemento output em formulários HTML</a>
+<a href="https://youtu.be/PFGmSEj2wIo" target="_blank">
+  26- Select, datalist e textarea em HTML</a> 
+<a href="https://youtu.be/acOURIAlB1Q" target="_blank">
+  25- Elementos color, range e file em HTML</a>
+<a href="https://youtu.be/iGDHFa4znHE" target="_blank">
+  24- Checkbox e Radio button em HTML</a>
+23- Formulários com telefone e e-mail
+22- Compatibilidade com navegadores
+21- Elementos number, month, date e time em formulários HTML
+20- Criando caixas de texto e de senha
+19- Métodos GET e POST para formulários
+18- Usar Label vai melhorar seus formulários
+17- Como criar formulários com HTML5 
+16- Personalizando as imagens do projeto
+15- Criando as páginas de cada rede social 
+14- Criando os botoes para as redes 
+13- Posicionando o conteúdo do site
+12- Criando a página inicial do projeto 
+11- Vamos começar o projeto
+10- Criando um projeto do zero
+9- Dicas para iframes melhores
+8- Tornando iframes mais seguros
+7- Inconvenientes do iframe
+6- Conteúdo no iframe por código
+5- Navegação no iframe
+4- Conteúdo local no iframe
+3- Configurando iframes
+2- O iframe ainda pode ser usado?
+1- O que vamos aprender no módulo 4? 
+capitulo 22 ao 26. 
+
+========== 40 videos do Modulo 3 ==========
+https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ
+40- Fim do Módulo 3. O Módulo 4 de HTML5 vem aí!
+39- Tabelas responsivas
+38- Agrupando Colunas com colgroup 
+37- Desafios (parte 2)
+36- Escopos de grupo 
+35- Exemplo de tabela completa
+34- Desafios (parte 1)
+33- Mesclagem de células
+32- Cabeçalho fixo em tabelas grandes
+31- Efeito Zebrado na tabela com HTML e CSS
+30- Caption e Escopo de títulos em tabelas
+29- Aprendendo a trabalhar com tabelas grandes 
+28- Alinhando o conteúdo em tabelas
+27- Sua primeira tabela em HTML
+26- Ainda podemos usar tabelas em HTML? (Capitulo 21)
+25- Hospedando o Projeto Cordel gratuitamente
+24- Imagens com efeito Parallax simples
+23- Colocando as fontes ao projeto
+22- Ajustes no CSS do projeto
+21- Ajustes no HTML do projeto
+20- Download e organização dos arquivos 
+19- Um projeto completo usando HTML e CSS 
+  https://professorguanabara.github.io/projeto-cordel/
+18- Centralização vertical de caixas
+17- background-attachment e shorthand 
+16- Mudando o tamanho da imagem de fundo do site 
+15- Configurando a posição da imagem no fundo do site 
+14- Imagens que se repetem no fundo do site  
+13- Colocando uma imagem de fundo no seu site 
+12- Download das imagens do capítulo 
+11- GitHub em vários PCs 
+  Curso de GIT GitHub:
+  https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA
+10- Clonando Repositórios GitHub 
+9- Recursos Sociais do GitHub 
+8- Manutenção em sites hospedados no GitHub Pages 
+7- Hospedando site gratuitamente com GitHub Pages 
+6- Gerenciando Repositórios GitHub 
+5- Primeiro repositório git e GitHub 
+4- Criando conta no GitHub 
+3- Instalando Git e GitHub no PC
+2- O que é Git e GitHub? cap18
+1- O que vamos aprender no módulo 3?
+Modulo 3
+https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ
+
+CSS Modulo2 Playlist:
+https://youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s
+
+PLAYLISTS DO CURSO EM VIDEO:
+https://www.youtube.com/@CursoemVideo/playlists
+
+Módulos:
+1- HTML
+2- CSS                         
+3- Colocando um protótipo no ar
+4- Aprofundando os conhecimentos
+5- Novas tecnologias
+#----------------------------------------------------------------
