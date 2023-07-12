@@ -8,7 +8,7 @@
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: opx; margin: 0px;
+    padding: 0px; margin: 0px;
 
     /* inclui o tamanho da borda no tamanho */
     box-sizing: border-box;
@@ -49,13 +49,13 @@ div#imagem {
     background-size: cover;
     background-position: left bottom;
     height: 200px;
-    margin: -1px;
+    margin: 0px;
 }
 div#imagem > img {
     width: 15px;
     margin: 5px;
     position: absolute;
-    lefth: 1%; top: 0%;
+    left: 1%; top: 0%;
     cursor: pointer;
 }
 section#login > div#formulario {
@@ -74,5 +74,68 @@ div#formulario > h1 {
     margin-bottom: 10px;
 }
 div#formulario > p {
+    font-size: .7em;
+    text-align: center;
+}
+div.campo {
+    background-color: #5f2c82;
+    height: 45px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    text-align: center;
     font-size: .8em;
+}
+div.campo > input {
+    border: none;
+    border-radius: 5px;
+    height: 70%;
+    width: calc(95% - 30px);
+    font-size: 1.2em;
+    background-color: #bcf1ef;
+    padding-left: 5px;
+    padding-top: 13px;
+    /*  
+        Dica:
+        Procure deixar as transformações por ultimo, abaixo dos outros códigos:
+        transform: translateY( -10px)
+     */
+}
+div.campo > input:focus-within {
+    background-color: white;
+}
+div.campo > label > i {
+    color: white;
+    padding-top: 10px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%; height: 35px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #4dc8c4;
+}
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: .9em;
+    width: 100%; height: 30px;
+    padding-top: 9px;
+    margin-top: 5px;
+    color: #244e4d;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+form > a.botao:hover {
+    background-color: #43e4df;
+}
+form > a.botao > i {
+    font-size: 0.8em;
 }
